@@ -1,2 +1,5 @@
 # Using 'awk' for searching multiple strings in a file
 awk '/<string1>/ && /<string2>/' <file_name>
+
+# For a '/' in string, use '\/'.
+awk '/example\/.com/ && /<string2>/' <file_name>
